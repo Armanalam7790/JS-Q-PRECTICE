@@ -145,24 +145,226 @@
 
 
 // 3️⃣0️⃣ Check if a number is positive, negative, or zero
-let num = -5; 
+// let num = -5; 
 
-if (num > 0) {
-    console.log("Positive");
-} else if (num < 0) {
-    console.log("Negative");
-} else {
-    console.log("Zero");
-}
-
-
+// if (num > 0) {
+//     console.log("Positive");
+// } else if (num < 0) {
+//     console.log("Negative");
+// } else {
+//     console.log("Zero");
+// }
 
 
 
 
+// ----------------------------------------------
+
+// 1. Create two variables: one storing your full name and another storing your favorite hobby. Print:
+
+// "My name is and"
+// let name   =  "Arman Alam"
+// let Fhobby = " i love cricket"
+// console.log("My Name is  " + name + " and" + Fhobby);
+
+ // 2. Perform the arithmetic calculation 45 * 2 - 10 and print the result.
+
+// console.log(45*2 -10);
+
+// 3. Retrieve and print the current year using JavaScript’s Date object.
+
+// const currentDate = new Date();
+
+// console.log(currentDate.getFullYear());
+
+// 4. Store your first name and last name separately and print your full name.
+
+// let first = "Arman"
+// let last = "Alam"
+// console.log(first +" " + last );
+
+// 5. Create a variable, print it, update it, and print again.
+
+// let name = "Arman"
+// console.log(name);
+// name = "Subham"
+// console.log(name);
+
+// 6. Print a custom error message using console.error().
+
+// console.error("something is wrong..");
 
 
+// 7. Store a number and print its square.
+
+// let ans = 5
+// console.log(ans**2);
 
 
+// 8. Create a boolean variable and print it.
+// let bl = true
+// console.log(bl);
 
 
+// 9. Store your age and print whether it is greater than 18.
+
+// let age = 20
+
+// if (age>18) {
+//     console.log(age + " is greater then " + 18);
+    
+// }
+
+// 10. Divide 100 by 0 and print the result.
+// console.log(100/0); // Infinity
+
+// 11. Create a variable using let and print it.
+
+// let age  =  "arman"
+// console.log(age);
+
+// 12. Declare a constant PI = 3.14 and print it.
+
+// const  PI = 3.14 
+// console.log(PI);
+
+
+// 13. Create a variable, update it, and print again.
+// let name = "Arman"
+// console.log(name);
+// name = "Subham"
+// console.log(name);
+
+// 14. Print typeof null.
+// console.log(typeof(null)); object
+
+// 15. Store "25" in a variable and print its type.
+// let store = "25"
+// console.log(typeof(store));
+
+// 16. Create a boolean and print its type.
+// let bl = true
+// console.log(bl);
+
+// 17. Create a string, number, and boolean. Print all together.
+
+// let obj ={
+//     fullname : "arman",
+//     age : 20,
+//     Student : true,
+
+// }
+//  let {fullname,age,Student} =    obj
+
+//  console.log(fullname , age , Student);
+ 
+
+// 18. Declare a variable without value and print its type.
+// let ans ;
+// console.log( typeof(ans)) ;//undifind
+
+
+// 19. Create a variable with undefined and print its type.
+// let ans = undefined;
+// console.log( typeof(ans)) ;
+
+
+// 20. Create an array using const.
+
+// - Print it
+
+// - Try reassigning (observe error)
+
+// - Push a new value and print updated array.
+
+
+// const arr =  [10,20,30,40,50]
+
+// console.log(arr);
+
+// arr = [40, 50]
+
+// arr.push(100, 200)
+// console.log(arr);
+
+
+// 21. Print numbers from 1 to 50 using for.
+
+// for (let i = 1; i <51; i++) {
+//    console.log(i);
+   
+// }
+
+// // 22. Using while, calculate sum from 1 to 10.
+// let i = 1
+// let sum =0
+// while (i<=10) {
+   
+//     sum += i
+     
+//     i++
+// }
+// console.log(sum);
+
+
+// // 23. Use for...of to print each character of "JavaScript".
+
+// let value = "JavaScript"
+// for (const key of value) {
+//     console.log(key);
+    
+// }
+
+// // 24. Print odd numbers from 1–20 using continue.
+
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     continue; 
+//   }
+//   console.log(i);
+// }
+
+
+// 25. Use do...while to print 5 to 1.
+
+
+// let i = 5;
+// do {
+//   console.log(i);
+//    i--
+// } while (i >= 1)
+
+// // 26. Calculate factorial of 5.
+// let sum =1
+// for (let i = 5; i >=1; i--) {
+
+   
+//     sum *= i
+
+    
+// }
+// console.log(sum);
+
+
+// // 29. Print numbers from 1–100 divisible by 5 using while.
+// let i = 1
+// while (i<=100) {
+//     if (i%5==0) {
+//         console.log(i);
+    
+//     }
+//     i++
+// }
+
+
+// // 30. Create object {name, age} and print keys using for...in.
+
+// let obj = {
+//     name:"arman" ,
+//      age:20,
+
+//     }
+//     for (const key in obj) {
+//         console.log(key, obj[key]);
+        
+//     }
