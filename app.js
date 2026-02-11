@@ -368,3 +368,318 @@
 //         console.log(key, obj[key]);
         
 //     }
+// ----------------------------------------------------
+
+// JavaScript Practice Questions
+
+// 1.  Write a function that prints "Hello World".
+// function abc() {
+//     console.log('Hello World');
+    
+// }
+// abc()
+
+// 2.  Write a function that adds two numbers and returns the result.
+
+// function abc(a,b) {
+//     return a+b
+// }
+// let ans = abc(10,20)
+// console.log(ans);
+
+// 3.  Write a function that takes a name as a parameter and prints it.
+
+// function abc(name) {
+//    console.log(name)
+// }
+
+// abc('arman')
+
+// 4.  Create a function that returns the square of a number.
+
+// function abc(a,b) {
+//     return a**b
+// }
+// let ans  =  abc(5,2)
+// console.log(ans);
+
+
+// 5.  Write a function that checks if a number is even.
+// function abc(num) {
+//     if (num%2== 0) {
+//         console.log("even");
+        
+//     } else console.log(odd);
+    
+// }
+
+// abc(20)
+
+
+// 6.  Create a function that returns the last character of a string.
+
+// function abc(str) {
+//     return str[str.length - 1]
+// }
+// console.log(abc("arman"));
+
+// .  Write a function that returns the first element of an array.
+
+// function abs(arr) {
+//     return arr[0]
+// }
+// console.log(abs([1,2,3,4,5,6,7,8]));
+
+// 8.  Write a function that returns the last element of an array.
+
+// function abc(arr) {
+//  return arr[arr.length-1]   
+// }
+//  let ans = abc([1,2,3,4,5,6,7,8])
+//  console.log(ans);
+ 
+
+// 9.  Write a function that prints all elements of an array.
+// function abc(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         console.log(arr[i]);
+        
+        
+//     }
+// }
+// abc([10,20,30,40,50,60,70,80])
+
+// 10. Write a function that returns the length of an array.
+
+// function abc(arr) {
+//     return arr.length
+// }
+//  console.log(abc([10,20,30,40,50,60,70,80]));
+ 
+
+// 11. Write a function declaration that multiplies two numbers.
+
+//function abc(a,b) {
+//     return a*b
+// }
+// console.log(abc(2,3));
+
+
+// 12. Write a function expression that subtracts two numbers.
+
+// let fnc = function (a,b) {
+//     return a*b
+// }
+// console.log(fnc(2,3));
+
+// 13. Write an arrow function that converts a string to uppercase.
+//  let abc = (str)=>{
+//     console.log(str.toUpperCase());
+  
+//  }
+ 
+//  abc("javascript")
+
+// 14. Write an arrow function that calculates a number's cube.
+
+// let abc =  (a)=> {
+//     return a** 3
+// }
+// console.log(abc(10));
+
+// 15. Create a function that joins two strings and returns the result.
+
+// function abc(first , last) {
+//     return first+ last
+// }
+
+// ;
+
+// console.log(abc("arman", "alam"));
+
+
+// 16. Write a function that takes two parameters and returns which one is
+    // bigger.
+
+    // function abc(a, b) {
+    //     if (a>b) {
+    //         console.log(a);
+            
+    //     }
+    //     else console.log(b);
+        
+    // }
+    // abc(10,20)
+
+
+// 17. Write a function that takes three parameters and returns the
+//     smallest number.
+
+// function findSmallest(a, b, c) {
+//     if (a < b && a < c) {
+//         return a;
+//     } else if (b < a && b < c) {
+//         return b;
+//     } else {
+//         return c;
+//     }
+// }
+
+// console.log(findSmallest(10, 90, 30)); 
+
+// 18. Write a function that prints any message five times (using a
+//     parameter).
+
+// function abc(n) {
+//     for (let i = 0; i <n; i++) {
+//         console.log("hello world");
+        
+        
+//     }
+// }
+// abc(5)
+
+// 19. Write a function that takes an array and returns only even numbers.
+
+// function abc(num) {
+//     if (num%2 == 0) {
+//         console.log("even");
+        
+//     } else console.log("odd");
+    
+// }
+// abc(12)
+
+// function abc(arr) {
+//    for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] %2 === 0) {
+//         console.log(arr[i]);
+        
+//     }
+    
+    
+    
+//    }
+    
+// }
+// abc([1,2,3,4,5,6,7,8,9,10])
+
+// 20. Write a function that takes an array and returns only odd numbers.
+// function abc(arr) {
+//    for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] %2 !== 0) {
+//         console.log(arr[i]);
+        
+//     }
+    
+    
+    
+//    }
+    
+// }
+// abc([1,2,3,4,5,6,7,8,9,10])
+
+// // 21. Write a function that removes the first element of an array (using
+// //     shift).
+
+
+// function abc(arr) {
+ 
+//     arr.shift()
+//      return  arr
+// }
+//  console.log(abc([1,2,3,4,5,6,7,8,9,10]));
+ 
+// 22. Write a function that adds a value to the start of an array (using
+//     unshift).
+
+// function abc(arr) {
+//     arr.unshift(200)
+//     return arr
+    
+// }
+// console.log(abc([1,2,3,4,5,6,7,8,9,10]));
+
+// 23. Write a function that removes the last element of an array (using
+//     pop).
+
+
+// function abc(arr) {
+//     arr.pop()
+//     return arr
+    
+// }
+// console.log(abc([1,2,3,4,5,6,7,8,9,10]));
+
+// 24. Write a function that adds a value to the end of an array (using
+//     push).
+
+
+// function abc(arr) {
+//     arr.push(200)
+//     return arr
+    
+// }
+// console.log(abc([1,2,3,4,5,6,7,8,9,10]));
+
+// // 25. Write a function that uses splice to remove 2 items from index 1
+
+
+// function abc(arr) {
+//     arr.splice(1,2)
+//     return arr
+    
+// }
+// console.log(abc([1,2,3,4,5,6,7,8,9,10]));
+
+// 26. Write a function that checks if a string contains the letter "a".
+
+// function abc(str) {
+//     return str.includes("a");
+// }
+
+// console.log(abc("arman alam")); // true
+// console.log(abc("hello"));      // false
+
+
+// 27. Write a function that counts vowels in a string.
+// function abc(str) {
+//     let vowels = "aeiou"
+//     let count  = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         if (vowels.includes(str[i])) {
+//             count++
+//         }
+        
+//     }
+//     return count
+// }
+// let ans  =  abc("hello")
+// console.log(ans);
+
+// 28. Write a function that reverses a string.
+// function abc(str) {
+//     let reversed = "";
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         reversed += str[i];
+//     }
+//     return reversed;
+// }
+
+// console.log(abc("arman")); // namra
+
+// 35. Write a function that removes duplicate items from an array.
+
+// function abc(arr) {
+//     let unique = []
+//     for (let i = 0; i < arr.length; i++) {
+//        if (!unique.includes(arr[i])) {
+//         unique.push(arr[i])
+//        }
+        
+//     }
+//     return unique
+// }
+
+// console.log(abc([1,5,3,1,5,6,7,8,5]));
+
