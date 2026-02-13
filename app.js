@@ -683,3 +683,225 @@
 
 // console.log(abc([1,5,3,1,5,6,7,8,5]));
 
+
+
+
+// # JavaScript Practice – Arrays & Objects
+// 1. Write a function that uses `forEach()` to calculate the total sum of an array.
+
+// function abc(arr) {
+//     let sum  = 0  
+//     arr.forEach(elem => {
+   
+//        sum = sum+ elem
+       
+//     });
+//      return sum
+    
+// }
+
+
+//   let ans = abc([1,2,3,4,5,6])
+// console.log(ans);
+
+ 
+// 2. Write a function that uses `map()` to return a new array where each number is squared.
+
+// function abc(arr) {
+//   let ans =   arr.map((elem)=>{
+//           return  elem ** 2
+//     })
+//     return ans
+// }
+
+// console.log(abc([2,3,4,5,6]));
+
+// 3. Write a function that uses `filter()` to return only numbers greater than 50.
+
+// function abc(arr) {
+//   let ans  =   arr.filter((elem)=>{
+//         return elem>50
+//     })
+//     return ans 
+
+
+// }
+
+// console.log(abc([12,34,52,23,86,49,65,99,56,79,103,]));
+
+// 4. Write a function that checks whether two values are strictly equal using `===`.
+
+// function abc(a,b) {
+
+//     if (a === b) {
+//         console.log("true");
+        
+//     } else console.log("false");
+    
+// }
+// abc(2,"2")
+
+// // 5. Write a function that demonstrates array mutability by modifying the original array using `push()`.
+
+// function abc(arr) {
+//     console.log(arr);
+//     arr.push(100)
+//     console.log(arr);
+    
+// }
+// abc([2,3,4,5,6])
+
+// 6. Write a function that removes the last element immutably (without modifying original array).
+
+// function abc(arr) {
+    
+
+//     return  arr.slice(0, arr.length -1)
+
+    
+// }
+// console.log(abc([2,3,4,5,6]));
+
+// 7. Write a function that sorts numbers in ascending order using a proper compare function.
+
+// function abc(arr) {
+//   let ans  =  arr.sort((a,b)=>{
+//         return a-b
+//     })
+//     return ans 
+// }
+
+// console.log(abc([10,45,53,86,45,34,975,54,57,46,65]));
+
+//  8. Write a function that sorts strings alphabetically.
+
+//  function abc(arr) {
+//   return arr.sort()
+// }
+
+//  console.log(abc(['ARMAN',"SHUBHAM","RAKESH","SAURAV", 'RAJA',"ARJUN"]));
+
+
+// 9. Write a function that reverses an array without using `reverse()`.
+
+// function abc(arr) {
+//     let apk = []
+//     for (let i = arr.length-1; i >= 0; i--){
+//             console.log(arr[i]);
+//             apk.push(arr[i])
+            
+//     }
+//     return apk
+    
+      
+    
+// }
+
+// console.log(abc([10,20,30,40,50]));
+
+// 10. Write a function that merges two arrays using `concat()` and returns the result.
+
+// function abc(a,b) {
+//     return a.concat(b)
+// }
+
+// console.log(abc([10,20,30,40,50], [1,2,3,4,5,6]));
+
+
+// 11. Write a function that merges two arrays and removes duplicate values.
+
+// function abc(a,b) {
+//   let add =   a.concat(b)
+//   let ans  = []
+//   for (let i = 0; i < add.length; i++) {
+    
+//     if (!ans.includes(add[i])) {
+//       ans.push(add[i])
+//     }
+    
+//   }
+//   return ans 
+  
+// }
+
+//  console.log(abc([23,43,3,63,5], [2,4,3,6,5]));
+
+// 12. Write a function that manually checks whether a value exists in an array (without using `includes()`).
+
+// function abc(arr, value) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === value) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+
+// 13. Write a function that uses includes() to check if an array contains a specific value.
+
+// console.log(abc([10,20,30,40,50], 30)); 
+// console.log(abc([10,20,30,40,50], 99)); 
+
+// function abc(arr, value) {
+//   return arr.includes(value);
+// }
+
+// console.log(abc([10,20,30,40,50], 30)); // true
+
+// 14. Write a function that filters strings starting with "A" using `startsWith()`.
+
+// function abc(arr) {
+//   return arr.filter(str => str.startsWith("A"));
+// }
+
+// console.log(abc(["ARMAN","SHUBHAM","RAKESH","SAURAV","RAJA","ARJUN"]));
+
+
+// 15. Write a function that uses `find()` to return the first number greater than 100.
+
+// function abc(arr) {
+//   return arr.find(num => num > 100);
+// }
+
+// console.log(abc([10, 50, 120, 80, 200]));
+
+// 16. Create an object and write a function that returns all its keys using a loop.
+
+// function getKeys(obj) {
+//   let keys = [];
+
+//   for (let key in obj) {
+//     keys.push(key);
+//   }
+
+//   return keys;
+// }
+
+// let person = {
+//   name: "Arman",
+//   age: 22,
+//   city: "Delhi"
+// };
+
+// console.log(getKeys(person));
+
+
+// 17. Write a function that adds a new property to an object immutably.
+// function addProperty(obj, key, value) {
+//   return {
+//     ...obj,
+//     [key]: value
+//   };
+// }
+
+// let person = {
+//   name: "Arman",
+//   age: 22
+// };
+
+// let updated = addProperty(person, "city", "Delhi");
+
+// console.log(updated);
+// console.log(person); // original unchanged
+
+
